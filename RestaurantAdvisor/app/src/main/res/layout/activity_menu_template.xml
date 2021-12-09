@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/menu_info_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="497dp"
+        android:layout_marginEnd="181dp"
+        android:text="@string/menu_info_price"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/menu_description"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="48dp"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:layout_marginBottom="240dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:onClick="selectedTextView"
+        android:textSize="16sp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/menu_price"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="140dp"
+        android:textColor="#000000"
+        android:inputType="numberDecimal"
+        android:background="#11000000"
+        android:ems="10"
+        android:onClick="selectedTextView"
+        android:textSize="16sp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/menu_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="340dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:onClick="selectedTextView"
+        android:textSize="16sp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/menu_info_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="151dp"
+        android:text="@string/menu_info_description"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/menu_info_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="293dp"
+        android:layout_marginEnd="182dp"
+        android:text="@string/menu_info_name"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/menu_delete_button"
+        android:layout_width="108dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:text="@string/menu_delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</RelativeLayout>

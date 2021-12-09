@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activities.RestaurantTemplateActivity">
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-1dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/restaurant_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="541dp"
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        android:inputType="text"
+        android:autoLink="web"
+        android:background="#11000000"
+        android:ems="10"
+        android:onClick="selectedTextView"
+        android:textSize="16sp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="585dp"
+        android:layout_marginEnd="159dp"
+        android:text="@string/restaurant_hours"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/restaurant_website"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="135dp"
+        android:background="#11000000"
+        android:textColorLink="#000000"
+        android:textColor="#000000"
+        android:clickable="true"
+        android:inputType="text"
+        android:ems="10"
+        android:linksClickable="true"
+        android:onClick="selectedTextView"
+        android:textSize="16sp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="507dp"
+        android:layout_marginEnd="165dp"
+        android:text="@string/restaurant_website"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/restaurant_phone_number"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="213dp"
+        android:background="#11000000"
+        android:textColorLink="#000000"
+        android:inputType="phone"
+        android:ems="10"
+        android:textColor="#000000"
+        android:onClick="selectedTextView"
+        android:textSize="16sp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="124dp"
+        android:text="@string/restaurant_phone_number"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/restaurant_localization"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="293dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:onClick="selectedTextView"
+        android:textSize="16sp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="158dp"
+        android:text="@string/restaurant_localization"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/restaurant_grade"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="380dp"
+        android:background="#11000000"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:ems="10"
+        android:onClick="selectedTextView"
+        android:textSize="16sp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="157dp"
+        android:text="@string/restaurant_grade"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/restaurant_description"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="459dp"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:background="#11000000"
+        android:ems="10"
+        android:onClick="selectedTextView"
+        android:textSize="16sp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="135dp"
+        android:text="@string/restaurant_description"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="161dp"
+        android:text="@string/restaurant_name"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/restaurant_hours"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="58dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:onClick="selectedTextView"
+        android:textSize="16sp"
+        tools:ignore="TextViewEdits" />
+
+    <Button
+        android:id="@+id/menus_button"
+        android:layout_width="250dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:text="@string/restaurant_menu_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/restaurant_delete_button"
+        android:layout_width="108dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:text="@string/menu_delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/restaurant_invite_button"
+        android:layout_width="108dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="283dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:text="@string/restaurant_invite_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/restaurant_review_button"
+        android:layout_width="108dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:text="@string/restaurant_review_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</RelativeLayout>

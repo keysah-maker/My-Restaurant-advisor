@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/user_info_age"
+        android:layout_width="70dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="414dp"
+        android:layout_marginEnd="312dp"
+        android:text="@string/user_info_age"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/userinfo_email"
+        android:layout_width="278dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="310dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/userinfo_login"
+        android:layout_width="278dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="444dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/userinfo_name"
+        android:layout_width="278dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="398dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/userinfo_age"
+        android:layout_width="278dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginBottom="268dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/userinfo_firstname"
+        android:layout_width="278dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginBottom="354dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="127dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        app:srcCompat="@drawable/userlogo" />
+
+    <TextView
+        android:id="@+id/user_info_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="315dp"
+        android:text="@string/user_info_login"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/user_info_firstname"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="282dp"
+        android:text="@string/user_info_firstname"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/user_info_name"
+        android:layout_width="70dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="314dp"
+        android:text="@string/user_info_name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/user_info_email"
+        android:layout_width="70dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="315dp"
+        android:text="@string/user_info_email"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/userinfo_signout_button"
+        android:layout_width="330dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="586dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:text="@string/user_info_signout_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+</RelativeLayout>

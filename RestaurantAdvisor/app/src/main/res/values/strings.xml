@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Restaurant Advisor</string>
+
+    <!-- Menu Activity-->
+    <string name="menu_info_name">Name</string>
+    <string name="menu_info_description">Description</string>
+    <string name="menu_info_price">Price</string>
+    <string name="menu_delete">Delete</string>
+
+    <!-- Restaurant Activity-->
+    <string name="restaurant_menu_button">Menus</string>
+    <string name="restaurant_name">Name</string>
+    <string name="restaurant_description">Description</string>
+    <string name="restaurant_grade">Grade</string>
+    <string name="restaurant_localization">Localization</string>
+    <string name="restaurant_phone_number">Phone Number</string>
+    <string name="restaurant_website">Website</string>
+    <string name="restaurant_hours">Hours</string>
+
+    <string name="restaurant_invite_button">Invite Friend</string>
+    <string name="restaurant_search">Search a restaurant</string>
+    <string name="restaurant_review_button">Reviews</string>
+
+    <string name="user_info_button">User Info</string>
+    <string name="main_history_button">History</string>
+
+    <!-- Review Activity-->
+    <string name="review_create_button">New Review</string>
+    <string name="review_create_content">Review</string>
+    <string name="review_create_rate">Rate (max 10)</string>
+    <string name="review_create_submit_button">Submit</string>
+
+    <!-- Login Activity-->
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+
+    <string name="sign_in_button">Sign In</string>
+    <string name="register_here">Register</string>
+    <string name="restaurants_button">Restaurants</string>
+
+    <!-- Register Activity-->
+    <string name="password_confirmation">Password Confirmation</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="firstname">Firstname</string>
+    <string name="age">Age</string>
+
+    <!-- UserInfo Activity-->
+    <string name="user_info_login">Login</string>
+    <string name="user_info_name">Name</string>
+    <string name="user_info_firstname">Firstname</string>
+    <string name="user_info_email">Email</string>
+    <string name="user_info_age">Age</string>
+
+    <string name="user_info_signout_button">Sign out</string>
+</resources>
