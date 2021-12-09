@@ -8,7 +8,7 @@ Cette application a été développée sous Android Studio.
 Nous avons utilisé Retrofit2 et Okhttp afin de pouvoir effectuer des requetes directements sur notre API.
 Les librairies exactes à utiliser sont les suivantes
 
-    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation ```androidx.appcompat:appcompat:1.1.0```
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
